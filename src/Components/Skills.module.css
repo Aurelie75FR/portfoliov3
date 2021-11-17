@@ -1,0 +1,24 @@
+/* skill bar sans animation */
+.progress {
+  background-color: #806464;
+  border-radius: 20px;
+  position: relative;
+  margin: 12px 0;
+  height: 14px;
+  width: 150px;
+}
+/* skill bar avec animation */
+.progress-bar {
+  font-size: 11px;
+  background: linear-gradient(to left, #f2709c, #ff9472);
+  border-radius: 20px;
+  color: rgb(226, 235, 194);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 2s ease 0.5s;
+}

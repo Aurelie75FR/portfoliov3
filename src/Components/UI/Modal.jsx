@@ -10,7 +10,7 @@ const Modal = () => {
 
   return (
     <>
-      <button className={classes.close-modal} onClick={handleModal}>X</button>
+      <button className={classes.closeModal} onClick={handleModal}>X</button>
       {modalVisible && (
         <div className={classes.overlay}>
           <div className={classes.modal}>
