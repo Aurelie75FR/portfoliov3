@@ -1,0 +1,85 @@
+@import url("../../Pages/Global.css");
+
+.contactForm {
+  background: #17065ca2;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+
+  text-align: center;
+}
+
+.formBox {
+  max-width: 768px;
+  width: 100%;
+}
+
+.formBox > label {
+  display: none;
+}
+
+.formBox > input,
+textarea {
+  background: none;
+  text-decoration: none;
+  outline: none;
+
+  border: 1px solid #fff;
+  margin-top: 10px;
+  padding: 5px;
+
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Oswald";
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+}
+
+.formBox > textarea {
+  resize: none;
+  overflow: auto;
+  height: 200px;
+  width: 100%;
+}
+
+::placeholder {
+  color: #ffdafe;
+  margin-right: 2px;
+}
+
+.nameInput {
+  float: left;
+  width: 47%;
+}
+
+.emailInput {
+  float: right;
+  width: 47%;
+}
+
+.subjectInput {
+  width: 100%;
+}
+
+.formBtn {
+  width: 100%;
+  background: none;
+
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+
+  font-family: "Oswald";
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: antiquewhite;
+}
+
+.formBtn:hover {
+  border: 2px solid whitesmoke;
+  transition: 2s ease-in-out;
+}

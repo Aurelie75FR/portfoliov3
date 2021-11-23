@@ -1,0 +1,8 @@
+@import url("./Global.css");
+
+.contactPage{
+    background: linear-gradient(to left, #f2709c, #ff9472);
+  height: 100vh;
+  font-family: "Montserrat";
+  color: pink;
+}
