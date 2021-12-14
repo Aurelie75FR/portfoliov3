@@ -55,7 +55,7 @@ const NavBar = () => {
           </NavLink>
         </ul>
       )} */}
-      {toggleNav || width < 700 || (
+      {(toggleNav || width < 700) && (
         <ul className={classes.navList}>
           <NavLink end className={classes.page} to="/contact">
             Contactez moi
