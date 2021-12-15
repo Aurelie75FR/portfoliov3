@@ -22,16 +22,17 @@ const NavBar = () => {
       window.removeEventListener("resize", changeWidth);
     };
   }, []);
-
+//Tout a refaire plus de navLink Link serait plus approprier
+// https://reactrouter.com/docs/en/v6/getting-started/tutorial
   return (
     <nav>
-      {/* {(toggleNav || width > 700) || (
+      {/* {(toggleNav || width > 700) && (
         <ul className={classes.navList}>
           <NavLink end className={classes.page} activeClassName={classes.current} to="/">
             Home
           </NavLink>
           <NavLink
-            end
+            
             className={classes.page}
             
             to="/apropos"
@@ -39,7 +40,7 @@ const NavBar = () => {
             A Propos
           </NavLink>
           <NavLink
-            end
+            
             className={classes.page}
             
             to="/projets"
@@ -47,7 +48,7 @@ const NavBar = () => {
             Projets
           </NavLink>
           <NavLink
-            end
+            
             className={classes.page}
             to="/contact"
           >
@@ -55,13 +56,13 @@ const NavBar = () => {
           </NavLink>
         </ul>
       )} */}
-      {(toggleNav || width < 700) && (
+      {/* {(toggleNav || width < 700) && (
         <ul className={classes.navList}>
-          <NavLink end className={classes.page} to="/contact">
+          <NavLink className={classes.page} to="/contact">
             Contactez moi
           </NavLink>
         </ul>
-      )}
+      )} */}
       <button onClick={handleToggle} className={classes.btn}>
         <FaBars />
       </button>
